@@ -14,7 +14,7 @@ if cam_img:
     grey_scale = img.convert("L")
     st.image(grey_scale)
 
-st.write("<b>To access files:pip</b>", unsafe_allow_html=True)
+st.write("<b>To access files: </b>", unsafe_allow_html=True)
 with st.expander("Upload image"):
     img_doc = st.file_uploader("Devices files")
     st.write("Devices files are active now!")
